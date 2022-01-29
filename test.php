@@ -57,7 +57,7 @@ class LeagueTable
             $current_rank++;
          }
     
-    return $sorted_data[strval($rank)]["name"];
+    return $sorted_data[$rank]["name"];
     }
 
 }
